@@ -5,12 +5,12 @@ void imprime(long int fib, int n, int count) {
     cout << n << " - " << fib << " (fibonacci nº " << count << ")" << endl;
 }
 
-long int fibonacci(int n) {
-    long int a = 0;
-    long int b = 1;
+long long int fibonacci(int n) {
+    long long int a = 0;
+    long long int b = 1;
     
     while (n-- > 1) {
-        long int aux = a;
+        long long int aux = a;
         a = b;
         b += aux;
     }
@@ -24,7 +24,7 @@ void calculaFibonacciMod5(int n) {
     int count=1, count_mod_5=0;
 
     while(count<=n){
-        long int fib = fibonacci(count);
+        long long int fib = fibonacci(count);
         if(fib%3==0) {
             count_mod_5++;
             imprime(fib, count_mod_5, count);
