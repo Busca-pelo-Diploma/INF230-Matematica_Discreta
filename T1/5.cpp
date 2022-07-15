@@ -38,7 +38,7 @@ int main(){
 
     
     bool isDivisible = 0;
-    for(unsigned long long int n = 0; n < 30; n++){
+    for(unsigned long long int n = 0; n < 100; n++){
 
         unsigned long long int result = calculaTrianguloPascal(n);
 
