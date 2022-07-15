@@ -41,20 +41,17 @@ int main(){
     for(unsigned long long int n = 0; n < 30; n++){
 
         unsigned long long int result = calculaTrianguloPascal(n);
-        
-        for(unsigned long long int j = 0; (j*j) <= result; j++){
-            
-            if(isPrime(j)){
 
+        for(unsigned long long int j = 2; (j*j) <= result; j++){
+
+            if(isPrime(j)){
                 if(result % (j*j)  == 0){
                     cout << "Para n = " << n << ",  divisivel." << endl;
                     isDivisible = 1;
                     break;
                 }
-
             }
-        }
-        
+        }  
     }
 
     if(!isDivisible){
