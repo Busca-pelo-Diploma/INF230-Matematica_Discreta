@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int calculaTrianguloPascal(unsigned long long int n){
+unsigned long long int calculaTrianguloPascal(unsigned long long int n){
 
     unsigned long long int ctd=0;
     unsigned long long int matrix[4*n][4*n];
