@@ -49,7 +49,7 @@ int main(){
             
             if(isPrime(j)){
 
-                if(result % j*j  == 0){
+                if(result % (j*j)  == 0){
                     cout << "Para n = " << n << ",  divisivel." << endl;
                     isDivisible = 1;
                     break;
