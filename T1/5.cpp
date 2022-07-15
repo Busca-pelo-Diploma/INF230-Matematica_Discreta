@@ -3,13 +3,13 @@
 
 using namespace std;
 
-int calculaTrianguloPascal(int n){
+int calculaTrianguloPascal(unsigned long long int n){
 
-    int ctd=0;
-    int matrix[4*n][4*n];
+    unsigned long long int ctd=0;
+    unsigned long long int matrix[4*n][4*n];
     
-    for (int i=0; i<=n*2; i++){
-        for (int j=0; j<=i; j++){
+    for (unsigned long long int i=0; i<=n*2; i++){
+        for (unsigned long long int j=0; j<=i; j++){
     
             if (i == 0 || j == 0){
                 ctd = 1;
@@ -22,20 +22,40 @@ int calculaTrianguloPascal(int n){
     return matrix[2*n][n];
 }
 
+bool isPrime(unsigned long long int n){
+    if (n == 1){
+        return false;
+    }
+    for (unsigned long long int i=2; i<=n; i++){
+        if (n%i == 0){
+            return false;
+        }
+    }
+    return true;
+}
+
 int main(){
 
-    int cont = 0;
+    bool isDivisible = 0;
     
-    for(int n = 0; n < 100; n++){
+    for(unsigned long long int n = 0; n < 30; n++){
         
-        if(calculaTrianguloPascal(n) % 9  == 0){
-            cout << "Para n = " << n << ",  divisivel." << endl;
-            cont++;
+        for(unsigned long long int j = 0; (j*j) <= n; j++){
+            
+            if(isPrime(j)){
+
+                if(calculaTrianguloPascal(n) % (j*j)  == 0){
+                    cout << "Para n = " << n << ",  divisivel." << endl;
+                    isDivisible = 1;
+                    break;
+                }
+
+            }
         }
         
     }
 
-    if(cont == 0){
+    if(!isDivisible){
         cout << "Não tem nenhum entre 1 e 100." << endl;
     }
 }
