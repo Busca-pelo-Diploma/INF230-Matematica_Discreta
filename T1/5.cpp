@@ -37,10 +37,12 @@ bool isPrime(unsigned long long int n){
 int main(){
 
     
+    bool isDivisible = 0;
+
     for(unsigned long long int n = 0; n < 30; n++){
         
-        bool isDivisible = 0;
-
+        isDivisible = 0;
+        
         unsigned long long int result = calculaTrianguloPascal(n);
         
         for(unsigned long long int j = 0; (j*j) <= result; j++){
