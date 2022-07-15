@@ -43,7 +43,7 @@ int main(){
         
         isDivisible = 0;
 
-        unsigned long long int result = calculaTrianguloPascal(n);
+        unsigned long long int result = 20*n;
         
         for(unsigned long long int j = 0; j*j <= result; j++){
             
