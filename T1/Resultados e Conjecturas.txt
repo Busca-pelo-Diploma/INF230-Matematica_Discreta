@@ -1,0 +1,22 @@
+1 -
+2 -
+3 -
+4 -
+5 -
+
+6 - Resultados:
+    - 1 nao e divisivel.
+    - 3 nao e divisivel.
+    - 5 nao e divisivel.
+    - 7 nao e divisivel.
+    - 11 nao e divisivel.
+    - 17 nao e divisivel.
+    - 19 nao e divisivel.
+    - 23 nao e divisivel.
+        ...
+    
+
+Com a observação de um conjunto limitado de resultados pudemos perceber que 
+para os inteiros ímpares, tais que o binômio de Newton cuja definição é o conjunto 
+de n (neste caso o inteiro ímpar) tomado de p (Nesse caso o número ímpar dividido por 2) 
+resulta no conjunto de números primos do menor (2) até o maior (199).
