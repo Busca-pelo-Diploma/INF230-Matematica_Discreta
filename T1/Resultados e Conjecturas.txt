@@ -1,8 +1,118 @@
-1 -
+1 - Resultados:
+        Digite um valor n e verá os n primeiros numeros de Hardy-Ramanujan: 10
+        1 - 1729
+        2 - 4104
+        3 - 13832
+        4 - 20683
+        5 - 32832
+        6 - 39312
+        7 - 40033
+        8 - 46683
+        9 - 64232
+        10 - 65728
+        11 - 110656
+        12 - 110808
+        13 - 134379
+        14 - 149389
+        15 - 165464
+        16 - 171288
+        17 - 195841
+        18 - 216027
+        19 - 216125
+        20 - 262656
+
 2 -
-3 -
-4 -
-5 -
+
+3 - Resultados:
+        Digite um valor n e verá os números de Fibonacci que são divisíveis por 5 entre 1 e n: 100
+        1 - 5 (fibonacci nº 5)
+        2 - 55 (fibonacci nº 10)
+        3 - 610 (fibonacci nº 15)
+        4 - 6765 (fibonacci nº 20)
+        5 - 75025 (fibonacci nº 25)
+        6 - 832040 (fibonacci nº 30)
+        7 - 9227465 (fibonacci nº 35)
+        8 - 102334155 (fibonacci nº 40)
+        9 - 1134903170 (fibonacci nº 45)
+        10 - 12586269025 (fibonacci nº 50)
+        11 - 139583862445 (fibonacci nº 55)
+        12 - 1548008755920 (fibonacci nº 60)
+        13 - 17167680177565 (fibonacci nº 65)
+        14 - 190392490709135 (fibonacci nº 70)
+        15 - 2111485077978050 (fibonacci nº 75)
+        16 - 23416728348467685 (fibonacci nº 80)
+        17 - 259695496911122585 (fibonacci nº 85)
+        18 - 2880067194370816120 (fibonacci nº 90)
+                        .
+                        .
+                        .
+    
+    Com os testes feitos, foi possível chegar à conjectura de que os números da sequência de
+    fibonacci que são múltiplos de 5 são os que são resultado de todo 5º número. Ou seja, Fib(5),
+    Fib(10), Fib(15) e assim por diante.
+
+4 - Resultados:
+        Digite um valor n e verá os números de Fibonacci que são divisíveis por 3 entre 1 e n: 100
+        1 - 3 (fibonacci nº 4)
+        2 - 21 (fibonacci nº 8)
+        3 - 144 (fibonacci nº 12)
+        4 - 987 (fibonacci nº 16)
+        5 - 6765 (fibonacci nº 20)
+        6 - 46368 (fibonacci nº 24)
+        7 - 317811 (fibonacci nº 28)
+        8 - 2178309 (fibonacci nº 32)
+        9 - 14930352 (fibonacci nº 36)
+        10 - 102334155 (fibonacci nº 40)
+        11 - 701408733 (fibonacci nº 44)
+        12 - 4807526976 (fibonacci nº 48)
+        13 - 32951280099 (fibonacci nº 52)
+        14 - 225851433717 (fibonacci nº 56)
+        15 - 1548008755920 (fibonacci nº 60)
+        16 - 10610209857723 (fibonacci nº 64)
+        17 - 72723460248141 (fibonacci nº 68)
+        18 - 498454011879264 (fibonacci nº 72)
+        19 - 3416454622906707 (fibonacci nº 76)
+        20 - 23416728348467685 (fibonacci nº 80)
+        21 - 160500643816367088 (fibonacci nº 84)
+        22 - 1100087778366101931 (fibonacci nº 88)
+        23 - 7540113804746346429 (fibonacci nº 92)
+
+    Com os testes feitos, foi possível chegar à conjectura de que os números da sequência de
+    fibonacci que são múltiplos de 3 são os que são resultado de todo 4º número. Ou seja, Fib(4),
+    Fib(8), Fib(12) e assim por diante.
+
+5 - Resultados:
+        Para n = 3,  divisivel.
+        Para n = 5,  divisivel.
+        Para n = 6,  divisivel.
+        Para n = 7,  divisivel.
+        Para n = 8,  divisivel.
+        Para n = 9,  divisivel.
+        Para n = 10,  divisivel.
+        Para n = 11,  divisivel.
+        Para n = 12,  divisivel.
+        Para n = 13,  divisivel.
+        Para n = 14,  divisivel.
+        Para n = 15,  divisivel.
+        Para n = 16,  divisivel.
+        Para n = 17,  divisivel.
+        Para n = 18,  divisivel.
+        Para n = 19,  divisivel.
+        Para n = 20,  divisivel.
+        Para n = 21,  divisivel.
+        Para n = 22,  divisivel.
+        Para n = 23,  divisivel.
+        Para n = 24,  divisivel.
+        Para n = 25,  divisivel.
+        Para n = 26,  divisivel.
+        Para n = 27,  divisivel.
+        Para n = 28,  divisivel.
+        Para n = 29,  divisivel.
+        Para n = 30,  divisivel.
+        Para n = 31,  divisivel.
+                .
+                .
+                .
 
 6 - Resultados:
     - 1 nao e divisivel.
@@ -13,7 +123,9 @@
     - 17 nao e divisivel.
     - 19 nao e divisivel.
     - 23 nao e divisivel.
-        ...
+            .
+            .
+            .
     
 
 Com a observação de um conjunto limitado de resultados pudemos perceber que 

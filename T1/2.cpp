@@ -3,43 +3,51 @@ using namespace std;
 
 int main(){
 
-    for (int a = 1; a=true; a++){
-        for (int b = 1; b=true; b++){
-            for (int c = 1; c=true; c++){
-                for (int d = 1; d=true; d++){
-                    for (int e = 1; e=true; e++){
-                        for (int f = 1; f=true; f++){
-                            for (int g = 1; g=true; g++){
-                                for (int h = 1; h=true; h++){
-                                    for (int i = 1; i=true; i++){
-                                        for (int j = 1; i=true; j++){
-                                            for (int k = 1; i=true; k++){
-                                                for (int l = 1; i=true; l++){
-                                                    for (int m = 1; i=true; m++){
-                                                        for (int n = 1; i=true; n++){
-                                                            for (int o = 1; o=true; o++){
-                                                                for (int p = 1; p=true; p++){
-                                                                    for (int q = 1; q=true; q++){
-                                                                        for (int r = 1; r=true; r++){
-                                                                        
-                                                                        }
+    int aux = 0;
+    int cont = 0;
+    int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r;
+    
+    a = b = c = d = e = f = g = h = i = j = k = l = m = n = o = p = q = r = 0;
+    
+    for (; a=true; a++){
+        for (; b=true; b++){
+            for (; c=true; c++){
+                for (; d=true; d++){
+                    for (; e=true; e++){
+                        for (; f=true; f++){
+                            for (; g=true; g++){
+                                for (; h=true; h++){
+                                    for (; i=true; i++){
+                                        for (; i=true; j++){
+                                            for (; i=true; k++){
+                                                for (; i=true; l++){
+                                                    for (; i=true; m++){
+                                                        for (; i=true; n++){
+                                                            for (; o=true; o++){
+                                                                for (; p=true; p++){
+                                                                    for (; q=true; q++){
+                                                                        for (; r=true; r++){
+                                                                            aux = pow(a,4) + pow(b,4) + pow(c,4) + pow(d,4) + pow(e,4) + pow(f,4) 
+                                                                            + pow(g,4) + pow(h,4) + pow(i,4) + pow(j,4) + pow(k,4) + pow(l,4)
+                                                                            + pow(m,4) + pow(n,4) + pow(o,4) + pow(p,4) + pow(q,4) + pow(r,4);
+                                                                        }                                                                    
                                                                     }
-                                                                }                                                            
+                                                                }                                                                                                                                                                                   
                                                             }
-                                                        }
+                                                        }                                                    
                                                     }
                                                 }
                                             }
                                         }
                                     }
                                 }
-                            }                 
+                            }         
                         }
                     }
                 }
-            }   
+            }    
         }
     }
-    
+    return 0;
 }
 
