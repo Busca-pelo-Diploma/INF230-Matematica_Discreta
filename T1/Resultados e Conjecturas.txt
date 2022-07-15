@@ -84,6 +84,9 @@ Dupla:
         21 - 160500643816367088 (fibonacci nº 84)
         22 - 1100087778366101931 (fibonacci nº 88)
         23 - 7540113804746346429 (fibonacci nº 92)
+                        .
+                        .
+                        .
 
     Com os testes feitos, foi possível chegar à conjectura de que os números da sequência de
     fibonacci que são múltiplos de 3 são os que são resultado de todo 4º número. Ou seja, Fib(4),
