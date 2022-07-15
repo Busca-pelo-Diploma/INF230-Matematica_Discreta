@@ -1,3 +1,11 @@
+Dupla: 
+    Levi Martins - 95655
+    Thiago Ferreira - 98893
+
+    Moramos juntos, então fizemos programação em par. Pensamos nos algoritmos que fariam sentido
+    para a resolução de cada questão usando um computador só (único com linux rs) e depois de 
+    terminadas redigimos esse relatório.
+
 1 - Resultados:
         Digite um valor n e verá os n primeiros numeros de Hardy-Ramanujan: 10
         1 - 1729
@@ -21,7 +29,7 @@
         19 - 216125
         20 - 262656
 
-2 -
+2 - -- Não conseguimos implementar --
 
 3 - Resultados:
         Digite um valor n e verá os números de Fibonacci que são divisíveis por 5 entre 1 e n: 100
@@ -127,7 +135,6 @@
             .
             .
     
-
 Com a observação de um conjunto limitado de resultados pudemos perceber que 
 para os inteiros ímpares, tais que o binômio de Newton cuja definição é o conjunto 
 de n (neste caso o inteiro ímpar) tomado de p (Nesse caso o número ímpar dividido por 2) 
