@@ -26,7 +26,7 @@ bool isPrime(unsigned long long int n){
     if (n == 1){
         return false;
     }
-    for (unsigned long long int i=2; i<=n; i++){
+    for (unsigned long long int i=2; i<n; i++){
         if (n%i == 0){
             return false;
         }
@@ -39,12 +39,14 @@ int main(){
     bool isDivisible = 0;
     
     for(unsigned long long int n = 0; n < 30; n++){
+
+        unsigned long long int result = calculaTrianguloPascal(n);
         
         for(unsigned long long int j = 0; (j*j) <= n; j++){
             
             if(isPrime(j)){
 
-                if(calculaTrianguloPascal(n) % (j*j)  == 0){
+                if(result % (j*j)  == 0){
                     cout << "Para n = " << n << ",  divisivel." << endl;
                     isDivisible = 1;
                     break;
